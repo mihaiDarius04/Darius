@@ -1,0 +1,49 @@
+
+#head_title {
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align:center;
+    line-height: 80px; /* match this with the height */
+    background-color:#BACBD9 ;
+    height: 80px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.main_bg {
+    background-color: #BACBD9;
+    width: 55%;
+    margin: auto;
+    padding: 50px;
+    height: 750px;
+    position: relative;
+    top: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+    
+main .main_bg {
+    flex: 1.2;
+}
+
+.image-container {
+    margin-bottom: 20px; /* Space below each image */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Adjusts spacing around images */
+    align-items: center; /* Aligns images vertically */
+}
+
+.responsive-image {
+    width: 49%; /* Each image takes slightly less than half of the container's width */
+    height: auto; /* Maintains the aspect ratio of the images */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+#text_below_images {
+    margin-top: 20px; /* Space above the text block */
+}
